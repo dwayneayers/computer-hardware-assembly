@@ -24,9 +24,13 @@ No visible damage to components
 
 All required parts accounted for before assembly
 
-![Hardware Components Laid Out](https://i.imgur.com/PASTE_REAL_FILENAME.jpg)
+<img src="https://i.imgur.com/tR2rGhr.jpeg" height="80%" width="80%" alt="Hardware Conents Laid Out"/>
+
+<br>The motherboard was placed on top of its packaging box to provide a non-conductive, static-safe working surface during installation.</br>
+<img src="https://i.imgur.com/z1YLSpC.jpeg" height="80%" width="80%" alt="Motherboard"/>
 
 ### 2. CPU Installation
+Note: A photo of the CPU installed in the socket was not captured during assembly. Installation was verified during POST, with the system successfully detecting the AMD Ryzen 5 5500 in BIOS.
 
 Description:
 Installed the CPU into the motherboard socket following proper orientation and locking procedures.
@@ -49,7 +53,7 @@ No bent pins observed
 
 Retention arm locked securely
 
-📸 (Image: CPU installed)
+<img src="https://i.imgur.com/WhuCGau.jpeg" height="80%" width="80%" alt="CPU"/>
 
 ### 3. CPU Cooler Installation
 
@@ -74,10 +78,10 @@ Fan cable properly connected
 
 No obstruction to surrounding components
 
-📸 (Image: CPU cooler installed)
+<img src="https://i.imgur.com/SB25e3x.jpeg" height="80%" width="80%" alt="CPU Cooler Installed"/>
 
 ### 4. Memory (RAM) Installation
-
+<img src="https://i.imgur.com/7KBggLz.jpeg" height="80%" width="80%" alt="RAM"/>
 Description:
 Installed dual-channel memory modules to optimize performance.
 
@@ -97,57 +101,34 @@ RAM seated evenly in slots
 
 Correct dual-channel configuration used
 
-📸 (Image: RAM installed)
+<img src="https://i.imgur.com/T5CH75R.jpeg" height="80%" width="80%" alt="RAM Installed"/>
 
-### 5. Motherboard Installation
+### 5. Storage (SSD) Installation
 
 Description:
-Installed the motherboard into the case using manufacturer-recommended mounting points.
+Installed the solid-state drive (SSD) into the motherboard’s M.2 slot and secured it according to manufacturer specifications.
 
 Actions Taken:
 
-Installed motherboard standoffs in the case
+Removed the M.2 slot retaining screw
 
-Aligned motherboard with I/O shield
+Inserted the SSD at a slight angle into the M.2 slot
 
-Secured motherboard using appropriate screws
+Gently pressed the SSD down to align with the standoff
 
-Validation:
-
-Motherboard seated flat with no flex
-
-All mounting screws secured, not overtightened
-
-Rear I/O aligned correctly with case cutout
-
-📸 (Image: motherboard mounted in case)
-
-### 6. Power Supply Installation
-
-Description:
-Installed the power supply unit and routed primary power connections.
-
-Actions Taken:
-
-Mounted PSU in case with fan oriented correctly
-
-Secured PSU with mounting screws
-
-Connected 24-pin motherboard power cable
-
-Connected 8-pin CPU power cable
+Secured the SSD using the retaining screw
 
 Validation:
 
-PSU firmly mounted
+Confirmed SSD was firmly seated and properly secured
 
-Power cables seated fully
+No visible movement after installation
 
-No cable strain on connectors
+SSD was later detected in BIOS during system power-on verification
 
-📸 (Image: PSU installed)
 
-### 7. Graphics Card (GPU) Installation
+
+### 6. Graphics Card (GPU) Installation
 
 Description:
 Installed discrete graphics card into primary PCIe slot.
@@ -172,7 +153,86 @@ Power cables firmly connected
 
 📸 (Image: GPU installed)
 
-### 8. Cable Management
+### 7. Power Supply Installation
+
+Description:
+Installed the power supply unit and routed primary power connections.
+
+Actions Taken:
+
+Mounted PSU in case with fan oriented correctly
+
+Secured PSU with mounting screws
+
+Connected 24-pin motherboard power cable
+
+Connected 8-pin CPU power cable
+
+Validation:
+
+PSU firmly mounted
+
+Power cables seated fully
+
+No cable strain on connectors
+
+📸 (Image: PSU installed)
+
+### 8. Pre-Installation Hardware Validation (Bench Test)
+
+Description:
+Performed a pre-installation hardware validation (“bench test”) by assembling core components outside the case to verify functionality prior to final installation.
+
+Rationale:
+
+Reduce risk of full teardown if components were defective
+
+Confirm core components functioned before cable management and mounting
+
+Common best practice for first-time system builds and troubleshooting
+
+Actions Taken:
+
+Placed motherboard on a non-conductive surface
+
+Installed CPU, RAM, SSD, and CPU cooler
+
+Connected power supply (24-pin ATX and CPU power)
+
+Performed initial power-on test
+
+Validation:
+
+System powered on successfully
+
+Fans spun and system showed signs of POST
+
+Proceeded with full case installation after validation
+
+### 9. Motherboard Installation
+
+Description:
+Installed the motherboard into the case using manufacturer-recommended mounting points.
+
+Actions Taken:
+
+Installed motherboard standoffs in the case
+
+Aligned motherboard with I/O shield
+
+Secured motherboard using appropriate screws
+
+Validation:
+
+Motherboard seated flat with no flex
+
+All mounting screws secured, not overtightened
+
+Rear I/O aligned correctly with case cutout
+
+📸 (Image: motherboard mounted in case)
+
+### 10. Cable Management
 
 Description:
 Organized and secured cables to improve airflow and maintainability.
@@ -195,7 +255,7 @@ Cables accessible for future maintenance
 
 📸 (Optional image: cable management)
 
-### 9. Initial Power-On Test
+### 11. Initial Power-On Test
 
 Description:
 Performed initial power-on test prior to OS installation.
