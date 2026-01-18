@@ -5,10 +5,11 @@ This document outlines the step-by-step physical assembly of the system, includi
 
 ### 1. Workspace Preparation
 
-Description:
+**Description:**
+
 Prepared a clean, static-safe workspace prior to assembly.
 
-Actions Taken:
+**Actions Taken:**
 
 Used a large, flat surface for component layout
 
@@ -18,7 +19,7 @@ Grounded myself to reduce static discharge risk
 
 Verified all components against the inventory list
 
-Validation:
+**Validation:**
 
 No visible damage to components
 
@@ -26,16 +27,18 @@ All required parts accounted for before assembly
 
 <img src="https://i.imgur.com/tR2rGhr.jpeg" height="80%" width="80%" alt="Hardware Conents Laid Out"/>
 
-<br>The motherboard was placed on top of its packaging box to provide a non-conductive, static-safe working surface during installation.</br>
+The motherboard was placed on top of its packaging box to provide a non-conductive, static-safe working surface during installation.
+
 <img src="https://i.imgur.com/z1YLSpC.jpeg" height="80%" width="80%" alt="Motherboard"/>
 
 ### 2. CPU Installation
-Note: A photo of the CPU installed in the socket was not captured during assembly. Installation was verified during POST, with the system successfully detecting the AMD Ryzen 5 5500 in BIOS.
+**Note:** A photo of the CPU installed in the socket was not captured during assembly. Installation was verified during POST, with the system successfully detecting the AMD Ryzen 5 5500 in BIOS.
 
-Description:
+**Description:**
+
 Installed the CPU into the motherboard socket following proper orientation and locking procedures.
 
-Actions Taken:
+**Actions Taken:**
 
 Opened CPU socket retention arm
 
@@ -45,7 +48,7 @@ Seated CPU without applying force
 
 Locked retention arm
 
-Validation:
+**Validation:**
 
 CPU seated flush in socket
 
@@ -57,10 +60,11 @@ Retention arm locked securely
 
 ### 3. CPU Cooler Installation
 
-Description:
+**Description:**
+
 Installed stock CPU cooler to ensure adequate thermal management.
 
-Actions Taken:
+**Actions Taken:**
 
 Verified thermal paste was pre-applied
 
@@ -70,7 +74,7 @@ Secured cooler evenly
 
 Connected CPU fan to motherboard CPU_FAN header
 
-Validation:
+**Validation:**
 
 Cooler firmly mounted with no movement
 
@@ -82,10 +86,12 @@ No obstruction to surrounding components
 
 ### 4. Memory (RAM) Installation
 <img src="https://i.imgur.com/7KBggLz.jpeg" height="80%" width="80%" alt="RAM"/>
-Description:
+
+**Description:**
+
 Installed dual-channel memory modules to optimize performance.
 
-Actions Taken:
+**Actions Taken:**
 
 Identified correct DIMM slots per motherboard manual
 
@@ -93,7 +99,7 @@ Opened retention clips
 
 Installed RAM modules until clips locked
 
-Validation:
+**Validation:**
 
 Retention clips fully engaged
 
@@ -105,10 +111,11 @@ Correct dual-channel configuration used
 
 ### 5. Storage (SSD) Installation
 
-Description:
+**Description:**
+
 Installed the solid-state drive (SSD) into the motherboard’s M.2 slot and secured it according to manufacturer specifications.
 
-Actions Taken:
+**Actions Taken:**
 
 Removed the M.2 slot retaining screw
 
@@ -118,7 +125,7 @@ Gently pressed the SSD down to align with the standoff
 
 Secured the SSD using the retaining screw
 
-Validation:
+**Validation:**
 
 Confirmed SSD was firmly seated and properly secured
 
@@ -126,14 +133,15 @@ No visible movement after installation
 
 SSD was later detected in BIOS during system power-on verification
 
-
+<img src="https://i.imgur.com/yAW5XkZ.jpeg" height="80%" width="80%" alt="SSD Seated"/>
 
 ### 6. Graphics Card (GPU) Installation
 
-Description:
+**Description:**
+
 Installed discrete graphics card into primary PCIe slot.
 
-Actions Taken:
+**Actions Taken:**
 
 Removed appropriate expansion slot covers
 
@@ -143,7 +151,7 @@ Secured GPU to case
 
 Connected PCIe power cables
 
-Validation:
+**Validation:**
 
 GPU fully seated in slot
 
@@ -151,7 +159,7 @@ PCIe retention clip engaged
 
 Power cables firmly connected
 
-📸 (Image: GPU installed)
+<img src="https://i.imgur.com/keSzRMf.jpeg" height="80%" width="80%" alt="GPU Installed"/>
 
 ### 7. Power Supply Installation
 
@@ -176,7 +184,7 @@ Power cables seated fully
 
 No cable strain on connectors
 
-📸 (Image: PSU installed)
+<img src="https://i.imgur.com/SO0p09f.jpeg" height="80%" width="80%" alt="GPU Installed"/>
 
 ### 8. Pre-Installation Hardware Validation (Bench Test)
 
@@ -208,6 +216,8 @@ System powered on successfully
 Fans spun and system showed signs of POST
 
 Proceeded with full case installation after validation
+
+<img src="https://i.imgur.com/FKDnTEI.jpeg" height="80%" width="80%" alt="GPU Installed"/>
 
 ### 9. Motherboard Installation
 
