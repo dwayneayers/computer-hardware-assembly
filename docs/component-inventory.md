@@ -12,7 +12,7 @@ This document records all hardware components used in the system assembly, simil
 - **CPU**: AMD RYZEN 5 5500
 - **GPU**: Discrete Graphics Card 8GB (VRAM)
 - **RAM**: Teamgroup T-Force Night Hawk 16GB (2x8GB) RAM DDR4 3200MHz CL16
-- **Storage**: 
+- **Storage**: PNY NVMe M.2 1TB SSD
 - **Power Supply**: Thermaltake SMART 600W ATX 12V 80 Plus
 - **Cooling**: AMD Wraith Stealth Stock CPU Cooler
 
