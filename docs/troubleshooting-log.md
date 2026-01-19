@@ -17,6 +17,8 @@ During the initial bench test, the system powered on but no video output was dis
 
 * No BIOS/POST screen visible
 
+<img/>
+
 ## Initial Assessment
 
 Based on the symptoms, potential causes included:
@@ -36,6 +38,8 @@ Based on the symptoms, potential causes included:
     - Verified successful video output on the monitor
 
     - Result: HDMI cable confirmed functional
+  
+<img src="https://i.imgur.com/rjkBXLq.jpeg" height="80%" width="80%" alt="Nintendo Switch displaying video output on monitor"/> 
 
 2. **GPU Seating Verification**
 
@@ -53,6 +57,8 @@ Based on the symptoms, potential causes included:
 
     - Result: Video output immediately displayed on monitor
 
+<img src="https://i.imgur.com/xSv3ywa.jpeg" height="80%" width="80%" alt="HDMI cable connected directly to GPU output"/>
+
 ## Root Cause
 
 HDMI cable was connected to the motherboard video output instead of the discrete GPU. Since the CPU does not provide integrated graphics, no display signal was generated from the motherboard port.
@@ -68,6 +74,8 @@ Reconnected the HDMI cable directly to the graphics card, restoring video output
 * System proceeded with normal POST
 
 * No further display issues observed
+
+<img src="https://i.imgur.com/WDQBcl5.jpeg" height="80%" width="80%" alt="BIOS/UEFI screen displayed after resolution"/>
 
 ## Lessons Learned
 
