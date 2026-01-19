@@ -143,11 +143,9 @@ Installed discrete graphics card into primary PCIe slot.
 
 **Actions Taken:**
 
-Removed appropriate expansion slot covers
-
 Inserted GPU into PCIe x16 slot
 
-Secured GPU to case
+Secured GPU to motherboard
 
 Connected PCIe power cables
 
@@ -163,20 +161,17 @@ Power cables firmly connected
 
 ### 7. Power Supply Installation
 
-Description:
+**Description:**
+
 Installed the power supply unit and routed primary power connections.
 
-Actions Taken:
-
-Mounted PSU in case with fan oriented correctly
-
-Secured PSU with mounting screws
+**Actions Taken:**
 
 Connected 24-pin motherboard power cable
 
 Connected 8-pin CPU power cable
 
-Validation:
+**Validation:**
 
 PSU firmly mounted
 
@@ -188,10 +183,11 @@ No cable strain on connectors
 
 ### 8. Pre-Installation Hardware Validation (Bench Test)
 
-Description:
+**Description:**
+
 Performed a pre-installation hardware validation (“bench test”) by assembling core components outside the case to verify functionality prior to final installation.
 
-Rationale:
+**Rationale:**
 
 Reduce risk of full teardown if components were defective
 
@@ -199,7 +195,7 @@ Confirm core components functioned before cable management and mounting
 
 Common best practice for first-time system builds and troubleshooting
 
-Actions Taken:
+**Actions Taken:**
 
 Placed motherboard on a non-conductive surface
 
@@ -209,7 +205,7 @@ Connected power supply (24-pin ATX and CPU power)
 
 Performed initial power-on test
 
-Validation:
+**Validation:**
 
 System powered on successfully
 
@@ -221,10 +217,11 @@ Proceeded with full case installation after validation
 
 ### 9. Motherboard Installation
 
-Description:
+**Description:**
+
 Installed the motherboard into the case using manufacturer-recommended mounting points.
 
-Actions Taken:
+**Actions Taken:**
 
 Installed motherboard standoffs in the case
 
@@ -232,7 +229,7 @@ Aligned motherboard with I/O shield
 
 Secured motherboard using appropriate screws
 
-Validation:
+**Validation:**
 
 Motherboard seated flat with no flex
 
@@ -240,14 +237,15 @@ All mounting screws secured, not overtightened
 
 Rear I/O aligned correctly with case cutout
 
-📸 (Image: motherboard mounted in case)
+<img src="https://i.imgur.com/UFUxSCR.jpeg" height="80%" width="80%" alt="Motherboard Installed"/>
 
 ### 10. Cable Management
 
-Description:
+**Description:**
+
 Organized and secured cables to improve airflow and maintainability.
 
-Actions Taken:
+**Actions Taken:**
 
 Routed cables behind motherboard tray where possible
 
@@ -255,7 +253,7 @@ Used zip ties to bundle excess cables
 
 Ensured cables did not obstruct fans or airflow
 
-Validation:
+**Validation:**
 
 Clear airflow path
 
@@ -263,14 +261,15 @@ Side panels closed without resistance
 
 Cables accessible for future maintenance
 
-📸 (Optional image: cable management)
+<img src="https://i.imgur.com/l7pvL1j.jpeg" height="80%" width="80%" alt="Cable Management"/>
 
 ### 11. Initial Power-On Test
 
-Description:
+**Description:**
+
 Performed initial power-on test prior to OS installation.
 
-Actions Taken:
+**Actions Taken:**
 
 Connected monitor, keyboard, and power cable
 
@@ -278,7 +277,7 @@ Powered system on
 
 Observed POST behavior
 
-Validation:
+**Validation:**
 
 System powered on successfully
 
@@ -288,11 +287,11 @@ BIOS/UEFI screen displayed
 
 No error beeps or warning LEDs
 
-📸 (Image: system powered on / BIOS screen)
+<img src="https://i.imgur.com/WDQBcl5.jpeg" height="80%" width="80%" alt="POST Test"/>
 
-Notes & Observations
+**Notes & Observations**
 
-No hardware issues encountered during assembly
+No unresolved hardware issues remained after assembly and validation
 
 All components recognized during initial POST
 
